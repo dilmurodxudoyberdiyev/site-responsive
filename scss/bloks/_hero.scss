@@ -1,0 +1,87 @@
+.hero__section{
+    padding-bottom: 250px;
+    background-color: 
+    #014E56;
+}
+.hero__section{
+    
+    background-image: url("../../img/Group\ 7.svg");
+    background-position-x: calc(50% + 410px);
+    background-position-y: calc(50% + 225px);
+    background-repeat: no-repeat;
+
+}
+.site_main__find{
+    display: flex;
+    justify-content: space-between;
+}
+.main_find__titel{
+    width: 535px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.main_find__span{
+    color:#F67E7E;
+}
+.find_titel__span{
+    margin-bottom: 79px;
+    width: 50px;
+    height: 4px;
+    display: inline-block;
+    background-color: 
+    #79C8C7;
+}
+.find_titel__text{
+    width: 445px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:1100px) {
+    .site_main__find{
+    flex-direction: column;
+    text-align: center;
+    }
+    .find_titel__span{
+        display: none;
+    }
+    .hero__section{
+        background-position-x:right;
+        background-position-y: calc(50% + 285px);
+      }
+}
+@media screen and (max-width:600px) {
+    .site_main__find{
+        flex-direction: column;
+        text-align: center;
+        }
+    .main_find__titel{
+    width: 427px;
+    
+  }
+  .hero__section{
+    background-position-x:right;
+    background-position-y: calc(50% + 335px);
+  }
+}
+@media screen and (max-width:504px) {
+    .site_main__find{
+        flex-direction: column;
+        text-align: center;
+        }
+    .main_find__titel{
+    width: 327px;
+    
+  }
+  .find_titel__text{
+    width: 327px;
+  }
+  .hero__section{
+    background-position-x:right;
+    background-position-y: calc(50% + 405px);
+  }
+}
